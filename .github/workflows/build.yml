@@ -33,6 +33,10 @@ jobs:
           toolchain: 1.80.0
           components: clippy, rustfmt
       
+      - name: Update Rust dependencies
+        run: cargo update
+        working-directory: src-tauri
+      
       - name: Install Tauri CLI
         run: pnpm add -g @tauri-apps/cli
       
