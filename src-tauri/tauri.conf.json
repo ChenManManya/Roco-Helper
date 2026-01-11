@@ -20,7 +20,7 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": "default-src 'self' https://17roco.qq.com https://graph.qq.com https://unpkg.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://17roco.qq.com https://graph.qq.com https://unpkg.com; style-src 'self' 'unsafe-inline' https://17roco.qq.com; object-src 'none'; media-src 'self' https://17roco.qq.com; img-src 'self' data: https://17roco.qq.com https://graph.qq.com;"
     }
   },
   "bundle": {

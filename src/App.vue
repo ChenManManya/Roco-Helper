@@ -4,7 +4,7 @@ import InlineStyleButton from './components/InlineStyleButton.vue'
 
 <template>
   <div style="min-height: 100vh; background: linear-gradient(to bottom right, #f9fafb, #f3f4f6);">
-    <InlineStyleButton />
+    <InlineStyleButton />    
   </div>
 </template>
 
